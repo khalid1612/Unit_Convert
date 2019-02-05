@@ -9,5 +9,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        ShowToast.LongToast(this,String.valueOf(ProgrammerConvert.hexToOctal("2a")));
     }
 }
