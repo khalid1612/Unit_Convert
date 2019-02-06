@@ -16,9 +16,9 @@ import java.util.List;
 
 public class AngleActivity extends AppCompatActivity {
 
-    EditText _input;
-    Spinner _angleType;
-    TextView _degree,_radian, _gradian;
+    private EditText _input;
+    private Spinner _angleType;
+    private TextView _degree,_radian, _gradian;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

@@ -15,8 +15,8 @@ import java.util.List;
 
 public class DataActivity extends AppCompatActivity {
 
-    EditText _input1,_input2;
-    Spinner _dataType1,_dataType2;
+    private EditText _input1,_input2;
+    private Spinner _dataType1,_dataType2;
 
 
     @Override

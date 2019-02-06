@@ -16,9 +16,9 @@ import java.util.List;
 
 public class PowerActivity extends AppCompatActivity {
 
-    EditText _input;
-    Spinner _powerType;
-    TextView _watt, _kilowatt, _horsePower;
+    private EditText _input;
+    private Spinner _powerType;
+    private TextView _watt, _kilowatt, _horsePower;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

@@ -18,9 +18,9 @@ import java.util.List;
 
 public class ProgrammerActivity extends AppCompatActivity {
 
-    EditText _input;
-    Spinner _programmerType;
-    TextView _decimal, _binary, _octal, _hex;
+    private EditText _input;
+    private Spinner _programmerType;
+    private TextView _decimal, _binary, _octal, _hex;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
