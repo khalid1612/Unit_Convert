@@ -14,7 +14,7 @@ public class PowerConvert {
     }
 
     public static double kilowattToHorsepower(double kilowatt){
-    return kilowatt * 1.341022;
+        return kilowatt * 1.341022;
     }
 
     public static double horsepowerToWatt(double horsepower){

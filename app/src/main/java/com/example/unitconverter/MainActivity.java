@@ -26,5 +26,12 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        findViewById(R.id.power).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getApplicationContext(),DataActivity.class));
+            }
+        });
+
     }
 }
