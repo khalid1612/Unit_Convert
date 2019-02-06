@@ -23,7 +23,7 @@ public class PowerActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_angle);
+        setContentView(R.layout.activity_power);
 
         _input = findViewById(R.id.etValue);
         _watt = findViewById(R.id.tvWatt);
@@ -32,7 +32,7 @@ public class PowerActivity extends AppCompatActivity {
         _powerType = findViewById(R.id.spinPowerType);
 
         // Spinner Drop down elements
-        List<String> categories = new ArrayList<String>();
+        List<String> categories = new ArrayList<>();
         categories.add("Watt");
         categories.add("Kilowatt");
         categories.add("Horse power");
