@@ -33,13 +33,16 @@
             android:layout_weight="3">
 
             <Spinner
-                android:id="@+id/spinPowerType"
+                android:id="@+id/spinLengthType"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:dropDownSelector="@color/colorAccent"
                 android:spinnerMode="dropdown"
                 android:tooltipText="Select floor" />
         </FrameLayout>
+
+
+
 
     </LinearLayout>
 
@@ -61,11 +64,11 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Watt"
+                android:text="Centimeter"
                 android:textSize="16sp"/>
 
             <TextView
-                android:id="@+id/tvWatt"
+                android:id="@+id/tvCm"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="0"
@@ -94,11 +97,11 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Kilowatt"
+                android:text="Meter"
                 android:textSize="16sp"/>
 
             <TextView
-                android:id="@+id/tvKilowatt"
+                android:id="@+id/tvM"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="0"
@@ -127,11 +130,11 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Horsepower"
+                android:text="Kilometer"
                 android:textSize="16sp"/>
 
             <TextView
-                android:id="@+id/tvHorsePower"
+                android:id="@+id/tvKm"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="0"

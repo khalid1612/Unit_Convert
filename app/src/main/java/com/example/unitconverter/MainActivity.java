@@ -13,6 +13,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        getSupportActionBar().hide();
         setContentView(R.layout.activity_main);
 
         findViewById(R.id.angle).setOnClickListener(new View.OnClickListener() {
@@ -22,10 +23,10 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        findViewById(R.id.data).setOnClickListener(new View.OnClickListener() {
+        findViewById(R.id.length).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(getApplicationContext(),DataActivity.class));
+                startActivity(new Intent(getApplicationContext(),LengthActivity.class));
             }
         });
 
@@ -47,6 +48,13 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(getApplicationContext(), TemperatureActivity.class));
+            }
+        });
+
+        findViewById(R.id.about).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getApplicationContext(), AboutActivity.class));
             }
         });
 
