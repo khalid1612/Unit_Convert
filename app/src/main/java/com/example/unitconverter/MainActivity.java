@@ -60,6 +60,37 @@ public class MainActivity extends AppCompatActivity {
 
 
 
+        //upcoming
+        findViewById(R.id.data).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                ShowToast.shortToast(getApplicationContext(),"Coming Soon!");
+            }
+        });
+
+        findViewById(R.id.currency).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                ShowToast.shortToast(getApplicationContext(),"Coming Soon!");
+            }
+        });
+
+        findViewById(R.id.speed).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                ShowToast.shortToast(getApplicationContext(),"Coming Soon!");
+            }
+        });
+
+        findViewById(R.id.time).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                ShowToast.shortToast(getApplicationContext(),"Coming Soon!");
+            }
+        });
+
+
+
 
 
     }
